@@ -13,16 +13,8 @@ public abstract class Student {
     public abstract double calculateTuition();
 
     public abstract String getStudentType();
-    public void displayStudentDetails(){};
+    public void displayStudentDetails(){
 
-    Undergraduate ungrad = new Undergraduate.Builder()
-            .setStudentId("0511022819942")
-            .setStudentName("Matthew")
-            .setEmail("mattehw365@gmail.com")
-            .setDepartment("IT")
-            .setCreditHours(15)
-            .setScholarshipAmount(30000)
-            .build();
-    graduate
+    }
 }
 

@@ -27,6 +27,18 @@ public class Undergraduate extends Student {
         return null;
     }
 
+    @Override
+    public void displayStudentDetails(){
+        System.out.println("Undergraduate");
+        System.out.println("ID: " + studentId);
+        System.out.println("Student Name: " + name);
+        System.out.println("Student Email: " + email);
+        System.out.println("Department: " + department);
+        System.out.println("Credit Hours: " + creditHours);
+        System.out.println("Scholarship Amount: " + scholarshipAmount);
+
+    }
+
     //Builder
     public static class Builder {
         protected String studentId;
@@ -43,7 +55,7 @@ public class Undergraduate extends Student {
             return this;
         }
 
-        public Builder setStudentName(String name) {
+        public Builder setName(String name) {
             this.name = name;
             return this;
         }

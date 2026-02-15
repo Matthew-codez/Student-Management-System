@@ -24,6 +24,17 @@ public class Graduate extends Student {
         return null;
     }
 
+    @Override
+    public void displayStudentDetails() {
+        System.out.println("Graduate");
+        System.out.println("ID: " + studentId);
+        System.out.println("Student Name: " + name);
+        System.out.println("Student Email: " + email);
+        System.out.println("Department: " + department);
+        System.out.println("Research Assistant: " + researchAssistant);
+        System.out.println("Stipend: " + stipend);
+
+    }
     public static class Builder {
         protected String studentId;
 
