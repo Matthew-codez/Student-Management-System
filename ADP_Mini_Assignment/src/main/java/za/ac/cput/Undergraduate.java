@@ -18,7 +18,6 @@ public class Undergraduate extends Student {
         this.name = builder.name;
         this.email = builder.email;
         this.department = builder.department;
-
         this.creditHours = builder.creditHours;
         this.scholarshipAmount = builder.scholarshipAmount;
     }
@@ -52,11 +51,9 @@ public class Undergraduate extends Student {
     //Builder
     public static class Builder {
         protected String studentId;
-
         protected String name;
         protected String email;
         protected String department;
-
         private int creditHours;
         private double scholarshipAmount;
 
