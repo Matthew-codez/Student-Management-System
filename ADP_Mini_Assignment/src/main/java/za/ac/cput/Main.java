@@ -35,7 +35,7 @@ public class Main {
                 .build();
 
 
-        st1.displayStudentDetails();
+        st3.displayStudentDetails();
 
         Graduate st4 = new Graduate.Builder()
                 .setStudentId("0312022814442")
